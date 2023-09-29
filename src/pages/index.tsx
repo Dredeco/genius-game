@@ -126,9 +126,9 @@ export default function Home() {
       <div className={
         `genius 
         grid 
-        border-2 
-      border-white
-      bg-white
+        border-[10px] 
+      border-black
+      bg-black
         rounded-full
         mt-5
         w-[700px]
