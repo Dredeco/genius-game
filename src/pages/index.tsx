@@ -114,14 +114,12 @@ export default function Home() {
   // APPLICATION
   return (
     <main
-      className={
-        `flex 
-        min-h-screen 
-        w-full
-        flex-col 
-        items-center 
-        justify-center`
-      }
+      className={`
+        flex
+        h-screen
+        justify-center
+        items-center
+      `}
     >
       <div className={
         `genius 
@@ -131,8 +129,8 @@ export default function Home() {
       bg-black
         rounded-full
         mt-5
-        w-[700px]
-        h-[700px]`
+        w-full
+        min-h-[48%]`
       }
       >
         <div className={`
