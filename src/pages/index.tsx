@@ -130,6 +130,9 @@ export default function Home() {
         rounded-full
         mt-5
         w-full
+        max-w-[700px]
+        max-h-[700px]
+        h-[700px]
         min-h-[48%]`
       }
       >
